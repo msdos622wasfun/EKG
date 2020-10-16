@@ -1,0 +1,33 @@
+============
+VERSION 1.00
+============
+
+Initial release.
+
+============
+VERSION 1.01
+============
+
+Program executable now has a custom icon (at least for Windows and macOS).
+
+Better sprite being used for the hearts.
+
+Frame rate is now locked to 60 Hz.
+
+The pause that occurred every time the graph spiked has been eliminated.
+
+The grid is now drawn behind the graph.
+
+Now offering macOS and Linux versions, and 64-bit versions.
+
+============
+VERSION 1.02
+============
+
+Prepped the app for submission to GitHub.
+
+============
+VERSION 1.03
+============
+
+Uses a new method of assigning an icon to the app as it runs.

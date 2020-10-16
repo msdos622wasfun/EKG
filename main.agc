@@ -4,7 +4,7 @@
 /*
 
 	EKG
-	Version 1.02
+	Version 1.03
 	Copyleft 2020 by Erich Kohl
 	
 	A simple little graphics demo/screensaver
@@ -17,6 +17,8 @@
 	ekohl1972@outlook.com
 	
 */
+
+#Import_Plugin Icon
 
 #option_explicit
 
@@ -221,6 +223,8 @@ function Initialize()
 	SetWindowSize(1280, 800, 0)
 	SetVirtualResolution(1280, 800)
 	SetSyncRate(60, 0)
+	
+	Icon.Set("EKG", "Icon_ico.ico")
 
 	LoadImage(1, "Heart 001.png")
 	LoadSound(1, "Beep.wav")
@@ -242,7 +246,7 @@ function Main()
 		SetTextAlignment(1, 1)
 		SetTextColor(1, 255, 255, 0, 255)
 		
-		CreateText(2, "Version 1.02")
+		CreateText(2, "Version 1.03")
 		SetTextPosition(2, 640, 235)
 		SetTextSize(2, 25)
 		SetTextAlignment(2, 1)
